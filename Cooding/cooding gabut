@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float nilai;
+
+    cout << "Masukkan nilai anda:" ;
+    cin >> nilai;
+
+    if (nilai >= 60) {
+        cout << "Selamat, Anda lulus!" << endl;
+    }
+
+    return 0;
+}
